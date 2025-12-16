@@ -16,6 +16,9 @@ public class PaymentRequest {
     private Double amount;
     private String status;
 
+    public PaymentRequest() {
+    }
+
     public PaymentRequest(LocalDate date, String channelType, String userName, String upiId, Double amount, String status) {
         this.date = date;
         this.channelType = channelType;
