@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 
 src/main/resources/cred.json
+src/main/resources/cred_base64.txt
 
 ### STS ###
 .apt_generated
