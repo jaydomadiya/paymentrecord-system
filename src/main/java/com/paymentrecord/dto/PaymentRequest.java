@@ -7,7 +7,7 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 
-
+@NoArgsConstructor
 public class PaymentRequest {
     private LocalDate date;
     private String channelType;
@@ -16,8 +16,7 @@ public class PaymentRequest {
     private Double amount;
     private String status;
 
-    public PaymentRequest() {
-    }
+
 
     public PaymentRequest(LocalDate date, String channelType, String userName, String upiId, Double amount, String status) {
         this.date = date;
